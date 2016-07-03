@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B18378E81D28DDB800E4910C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18378E71D28DDB800E4910C /* AppDelegate.swift */; };
+		B18378EA1D28DDB800E4910C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18378E91D28DDB800E4910C /* ViewController.swift */; };
+		B18378ED1D28DDB800E4910C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18378EB1D28DDB800E4910C /* Main.storyboard */; };
+		B18378EF1D28DDB800E4910C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18378EE1D28DDB800E4910C /* Assets.xcassets */; };
+		B18378F21D28DDB800E4910C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18378F01D28DDB800E4910C /* LaunchScreen.storyboard */; };
+		B18378FD1D28DDB800E4910C /* LocationAlarmAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18378FC1D28DDB800E4910C /* LocationAlarmAppTests.swift */; };
+		B18379081D28DDB800E4910C /* LocationAlarmAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18379071D28DDB800E4910C /* LocationAlarmAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B18378F91D28DDB800E4910C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B18378DC1D28DDB800E4910C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18378E31D28DDB800E4910C;
+			remoteInfo = LocationAlarmApp;
+		};
+		B18379041D28DDB800E4910C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B18378DC1D28DDB800E4910C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18378E31D28DDB800E4910C;
+			remoteInfo = LocationAlarmApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B18378E41D28DDB800E4910C /* LocationAlarmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationAlarmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18378E71D28DDB800E4910C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B18378E91D28DDB800E4910C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B18378EC1D28DDB800E4910C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B18378EE1D28DDB800E4910C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B18378F11D28DDB800E4910C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B18378F31D28DDB800E4910C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B18378F81D28DDB800E4910C /* LocationAlarmAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationAlarmAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18378FC1D28DDB800E4910C /* LocationAlarmAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAlarmAppTests.swift; sourceTree = "<group>"; };
+		B18378FE1D28DDB800E4910C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B18379031D28DDB800E4910C /* LocationAlarmAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationAlarmAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18379071D28DDB800E4910C /* LocationAlarmAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAlarmAppUITests.swift; sourceTree = "<group>"; };
+		B18379091D28DDB800E4910C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B18378E11D28DDB800E4910C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18378F51D28DDB800E4910C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18379001D28DDB800E4910C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B18378DB1D28DDB800E4910C = {
+			isa = PBXGroup;
+			children = (
+				B18378E61D28DDB800E4910C /* LocationAlarmApp */,
+				B18378FB1D28DDB800E4910C /* LocationAlarmAppTests */,
+				B18379061D28DDB800E4910C /* LocationAlarmAppUITests */,
+				B18378E51D28DDB800E4910C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B18378E51D28DDB800E4910C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B18378E41D28DDB800E4910C /* LocationAlarmApp.app */,
+				B18378F81D28DDB800E4910C /* LocationAlarmAppTests.xctest */,
+				B18379031D28DDB800E4910C /* LocationAlarmAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18378E61D28DDB800E4910C /* LocationAlarmApp */ = {
+			isa = PBXGroup;
+			children = (
+				B18378E71D28DDB800E4910C /* AppDelegate.swift */,
+				B18378E91D28DDB800E4910C /* ViewController.swift */,
+				B18378EB1D28DDB800E4910C /* Main.storyboard */,
+				B18378EE1D28DDB800E4910C /* Assets.xcassets */,
+				B18378F01D28DDB800E4910C /* LaunchScreen.storyboard */,
+				B18378F31D28DDB800E4910C /* Info.plist */,
+			);
+			path = LocationAlarmApp;
+			sourceTree = "<group>";
+		};
+		B18378FB1D28DDB800E4910C /* LocationAlarmAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B18378FC1D28DDB800E4910C /* LocationAlarmAppTests.swift */,
+				B18378FE1D28DDB800E4910C /* Info.plist */,
+			);
+			path = LocationAlarmAppTests;
+			sourceTree = "<group>";
+		};
+		B18379061D28DDB800E4910C /* LocationAlarmAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B18379071D28DDB800E4910C /* LocationAlarmAppUITests.swift */,
+				B18379091D28DDB800E4910C /* Info.plist */,
+			);
+			path = LocationAlarmAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B18378E31D28DDB800E4910C /* LocationAlarmApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B183790C1D28DDB800E4910C /* Build configuration list for PBXNativeTarget "LocationAlarmApp" */;
+			buildPhases = (
+				B18378E01D28DDB800E4910C /* Sources */,
+				B18378E11D28DDB800E4910C /* Frameworks */,
+				B18378E21D28DDB800E4910C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationAlarmApp;
+			productName = LocationAlarmApp;
+			productReference = B18378E41D28DDB800E4910C /* LocationAlarmApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B18378F71D28DDB800E4910C /* LocationAlarmAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B183790F1D28DDB800E4910C /* Build configuration list for PBXNativeTarget "LocationAlarmAppTests" */;
+			buildPhases = (
+				B18378F41D28DDB800E4910C /* Sources */,
+				B18378F51D28DDB800E4910C /* Frameworks */,
+				B18378F61D28DDB800E4910C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B18378FA1D28DDB800E4910C /* PBXTargetDependency */,
+			);
+			name = LocationAlarmAppTests;
+			productName = LocationAlarmAppTests;
+			productReference = B18378F81D28DDB800E4910C /* LocationAlarmAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B18379021D28DDB800E4910C /* LocationAlarmAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18379121D28DDB800E4910C /* Build configuration list for PBXNativeTarget "LocationAlarmAppUITests" */;
+			buildPhases = (
+				B18378FF1D28DDB800E4910C /* Sources */,
+				B18379001D28DDB800E4910C /* Frameworks */,
+				B18379011D28DDB800E4910C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B18379051D28DDB800E4910C /* PBXTargetDependency */,
+			);
+			name = LocationAlarmAppUITests;
+			productName = LocationAlarmAppUITests;
+			productReference = B18379031D28DDB800E4910C /* LocationAlarmAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B18378DC1D28DDB800E4910C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Luyuan Xing";
+				TargetAttributes = {
+					B18378E31D28DDB800E4910C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B18378F71D28DDB800E4910C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B18378E31D28DDB800E4910C;
+					};
+					B18379021D28DDB800E4910C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B18378E31D28DDB800E4910C;
+					};
+				};
+			};
+			buildConfigurationList = B18378DF1D28DDB800E4910C /* Build configuration list for PBXProject "LocationAlarmApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B18378DB1D28DDB800E4910C;
+			productRefGroup = B18378E51D28DDB800E4910C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B18378E31D28DDB800E4910C /* LocationAlarmApp */,
+				B18378F71D28DDB800E4910C /* LocationAlarmAppTests */,
+				B18379021D28DDB800E4910C /* LocationAlarmAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B18378E21D28DDB800E4910C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18378F21D28DDB800E4910C /* LaunchScreen.storyboard in Resources */,
+				B18378EF1D28DDB800E4910C /* Assets.xcassets in Resources */,
+				B18378ED1D28DDB800E4910C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18378F61D28DDB800E4910C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18379011D28DDB800E4910C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B18378E01D28DDB800E4910C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18378EA1D28DDB800E4910C /* ViewController.swift in Sources */,
+				B18378E81D28DDB800E4910C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18378F41D28DDB800E4910C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18378FD1D28DDB800E4910C /* LocationAlarmAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18378FF1D28DDB800E4910C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18379081D28DDB800E4910C /* LocationAlarmAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B18378FA1D28DDB800E4910C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B18378E31D28DDB800E4910C /* LocationAlarmApp */;
+			targetProxy = B18378F91D28DDB800E4910C /* PBXContainerItemProxy */;
+		};
+		B18379051D28DDB800E4910C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B18378E31D28DDB800E4910C /* LocationAlarmApp */;
+			targetProxy = B18379041D28DDB800E4910C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B18378EB1D28DDB800E4910C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18378EC1D28DDB800E4910C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B18378F01D28DDB800E4910C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18378F11D28DDB800E4910C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B183790A1D28DDB800E4910C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B183790B1D28DDB800E4910C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B183790D1D28DDB800E4910C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LocationAlarmApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lxing.LocationAlarmApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B183790E1D28DDB800E4910C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LocationAlarmApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lxing.LocationAlarmApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B18379101D28DDB800E4910C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LocationAlarmAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lxing.LocationAlarmAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationAlarmApp.app/LocationAlarmApp";
+			};
+			name = Debug;
+		};
+		B18379111D28DDB800E4910C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LocationAlarmAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lxing.LocationAlarmAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocationAlarmApp.app/LocationAlarmApp";
+			};
+			name = Release;
+		};
+		B18379131D28DDB800E4910C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LocationAlarmAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lxing.LocationAlarmAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LocationAlarmApp;
+			};
+			name = Debug;
+		};
+		B18379141D28DDB800E4910C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LocationAlarmAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lxing.LocationAlarmAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LocationAlarmApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B18378DF1D28DDB800E4910C /* Build configuration list for PBXProject "LocationAlarmApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B183790A1D28DDB800E4910C /* Debug */,
+				B183790B1D28DDB800E4910C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B183790C1D28DDB800E4910C /* Build configuration list for PBXNativeTarget "LocationAlarmApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B183790D1D28DDB800E4910C /* Debug */,
+				B183790E1D28DDB800E4910C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B183790F1D28DDB800E4910C /* Build configuration list for PBXNativeTarget "LocationAlarmAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18379101D28DDB800E4910C /* Debug */,
+				B18379111D28DDB800E4910C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B18379121D28DDB800E4910C /* Build configuration list for PBXNativeTarget "LocationAlarmAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18379131D28DDB800E4910C /* Debug */,
+				B18379141D28DDB800E4910C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B18378DC1D28DDB800E4910C /* Project object */;
+}
